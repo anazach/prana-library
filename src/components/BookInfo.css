@@ -1,0 +1,99 @@
+.book-info {
+  position: absolute;
+  background: rgba(12, 11, 11, 0.8);
+  color: rgb(228, 228, 228);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-info__wrapper {
+  max-width: 1000px;
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas: "header header"
+                         "display info"
+}
+
+.book-info header {
+  grid-area: header;
+  height: 3rem;
+  padding: 1rem;
+}
+
+.display {
+  grid-area: display;
+}
+
+.display .book {
+  width: 24rem;
+  height: 28rem;
+}
+
+.display .about > h2 {
+  font-size: 2.2rem;
+  margin: 0 0 0 3rem;
+}
+
+.display .about > h3 {
+  font-size: 1.2rem;
+  margin: 0.25rem 0 1.5rem 3rem
+}
+
+.info {
+  grid-area: info;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+.info h1 {
+  font-size: 2.6rem;
+  margin: 0;
+}
+
+.info h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: .4rem 0 0 0;
+}
+
+.info p {
+  padding: .4rem 0;
+  line-height: 1.5;
+}
+
+.info footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  background: rgba(255,255,255,.05);
+  border-radius: 2px;
+  margin: auto 0 0 0;
+}
+
+.info footer p {
+  margin: 0;
+}
+
+.back {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255,255,255,.2);
+  color: rgba(0,0,0,0.8);
+  border-radius: 999rem;
+  border: none;
+}
+
+.back:hover {
+  cursor: pointer;
+  background: rgba(255,255,255,.4);
+  color: rgba(0,0,0,1);
+}

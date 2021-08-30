@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Anna Karenina",
+    "author": "Lev Tolstoj",
+    "publisher": "Cambridge University Press",
+    "year": 1877,
+    "pages": 964,
+    "plot": "Acclaimed by many as the world's greatest novel, Anna Karenina provides a vast panorama of contemporary life in Russia and of humanity in general. In it Tolstoy uses his intense imaginative insight to create some of the most memorable characters in all of literature. Anna is a sophisticated woman who abandons her empty existence as the wife of Karenin and turns to Count Vronsky to fulfil her passionate nature - with tragic consequences. Levin is a reflection of Tolstoy himself, often expressing the author's own views and convictions.",
+    "color": "#2cc3d5"
+  },
+  {
+    "id": 2,
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "publisher": "Oxford's University Press",
+    "year": 1856,
+    "pages": 329,
+    "plot": "Emma Bovary is beautiful and bored, trapped in her marriage to a mediocre doctor and stifled by the banality of provincial life. An ardent devourer of sentimental novels, she longs for passion and seeks escape in fantasies of high romance, in voracious spending and, eventually, in adultery. But even her affairs bring her disappointment, and when real life continues to fail to live up to her romantic expectations, the consequences are devastating. Flaubert's erotically charged and psychologically acute portrayal of Emma Bovary caused a moral outcry on its publication in 1857. It was deemed so lifelike that many women claimed they were the model for his heroine; but Flaubert insisted: 'Madame Bovary, c'est moi.'",
+    "color": "#22a0af"
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "publisher": "Penguin Books Ltd",
+    "year": 1961,
+    "pages": 328,
+    "plot": "Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern life—the ubiquity of television, the distortion of the language—and his ability to construct such a thorough version of hell. Required reading for students since it was published, it ranks among the most terrifying novels ever written.",
+    "color": "#2286af"
+  },
+  {
+    "id": 4,
+    "title": "The Brothers Karamazov",
+    "author": "Fjodor Dostojevskij",
+    "publisher": "Everyman's Library",
+    "year": 1879,
+    "pages": 796,
+    "plot": "The Brothers Karamazov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri; the coldly rational Ivan; and the healthy, red-cheeked young novice Alyosha. Through the gripping events of their story, Dostoevsky portrays the whole of Russian life, is social and spiritual striving, in what was both the golden age and a tragic turning point in Russian culture.",
+    "color": "#226daf"
+  },
+  {
+    "id": 5,
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "publisher": "Vintage International",
+    "year": 1967,
+    "pages": 488,
+    "plot": "The underground masterpiece of twentieth-century Russian fiction, Mikhail Bulgakov's THE MASTER AND MARGARITA was written during Stalin's regime and could not be published until many years after its author's death. When the devil arrives in 1930s Moscow, consorting with a retinue of odd associates, including a talking black cat, an assassin, and a beautiful naked witch--his antics wreak havoc among the literary elite of the world capital of atheism. Meanwhile, the Master, author of an unpublished novel about Jesus and Pontius Pilate, languishes in despair in a pyschiatric hospital, while his devoted lover, Margarita, decides to sell her soul to save him. As Bulgakov's dazzlingly exuberant narrative weaves back and forth between Moscow and ancient Jerusalem, studded with scenes ranging from a giddy Satanic ball to the murder of Judas in Gethsemane, Margarita's enduring love for the Master joins the strands of plot across space and time.",
+    "color": "#2d6cb4"
+  },
+  {
+    "id": 6,
+    "title": "The Tempest",
+    "author": "William Shakespeare",
+    "publisher": "Cambridge University Press",
+    "year": 1623,
+    "pages": 128,
+    "plot": "This drama in five acts was first written and performed about 1611 and published in the First Folio of 1623. The play opens with a storm raised by Prospero, who years earlier, as the rightful duke of Milan, had been set adrift in a boat with his three-year-old daughter, Miranda, by his usurping brother, Antonio. Prospero, more interested in his books and his magic than in the pragmatics of ruling Milan, had left himself vulnerable to this overthrow. Arriving at an island, Prospero proceeded to make good use of his magic by freeing the sprite Ariel from the torment of imprisonment to which Ariel had been subjected for refusing to carry out the wicked behests of the sorceress Sycorax.",
+    "color": "#1e49a4"
+  },
+  {
+    "id": 7,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "publisher": "Penguin Classics",
+    "year": 1999,
+    "pages": 541,
+    "plot": "The Odyssey of Homer is a Greek epic poem that tells of the return journey of Odysseus to the island of Ithaca from the war at Troy, which Homer addressed in The Iliad. In the Greek tradition, the war lasted for ten years. Odysseus then spent a further ten years getting home in the face of hostility from Poseidon, god of the earth and sea. The Odyssey, like the Iliad, is divided into 24 books, corresponding to the 24 letters in the Greek alphabet. Within the middle section of the poem (Books 9-12), Odysseus describes all the challenges that he has faced trying to get home. These include monsters of various sorts, a visit to the afterlife, cannibals, drugs, alluring women, and the hostility of Poseidon himself.",
+    "color": "#341ea4"
+  },
+  {
+    "id": 8,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "publisher": "Harper Collins",
+    "year": 1867,
+    "pages": 1225,
+    "plot": "In Russia's struggle with Napoleon, Tolstoy saw a tragedy that involved all mankind. Greater than a historical chronicle, War and Peace is an affirmation of life itself, `a complete picture', as a contemporary reviewer put it, `of everything in which people find their happiness and greatness, their grief and humiliation'. Tolstoy gave his personal approval to this translation, published here in a new single volume edition, which includes an introduction by Henry Gifford, and Tolstoy's important essay `Some Words about War and Peace'.",
+    "color": "#25137d"
+  }
+]

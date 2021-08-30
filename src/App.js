@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
+import books from './assets/library.json'
+
+import Book from './components/Book'
+import BookInfo from './components/BookInfo'
 
 function App() {
+  const [currentBook, setCurrentBook] = useState('')
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section className="title">
+      <h1>Prana Online Library</h1>
+      <section className='library'>
+        <div className='wrapper'>
+          {currentBook ? (
+            <BookInfo book={currentBook} close={setCurrentBook} />
+          ) : (
+            <section className='books'>
+              {books.map((book) => {
+                return (
+                  <Book book={book} chooseBook={setCurrentBook} key={book.id} />
+                )
+              })}
+            </section>
+          )}
+        </div>
+      </section>
+    </section>
+  )
 }
 
-export default App;
+export default App
