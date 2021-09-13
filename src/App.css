@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+/* @media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+} */
+
 body {
   background-color: rgba(12, 11, 11, 1);
+  padding: 2em;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  animation: title 10s ease-in-out infinite alternate;   
+}
+
+@keyframes title {
+  100% {
+      text-shadow:
+      0 0 4px rgb(13, 17, 119),
+      0 0 11px rgb(60, 71, 99),
+      0 0 19px rgb(44, 70, 121),
+      0 0 30px rgb(34, 72, 154),
+      0 0 30px rgb(28, 41, 70),
+      0 0 35px rgb(32, 48, 77),
+      0 0 35px rgb(22, 24, 79),
+      0 0 40px rgb(11, 33, 66);
+  }
+  
+  0% {
+    text-shadow:
+    0 0 4px rgb(14, 0, 104),
+    0 0 10px rgb(39, 0, 103),
+    0 0 18px rgb(11, 0, 84),
+    0 0 38px rgb(144, 178, 250),
+    0 0 73px rgb(93, 141, 244),
+    0 0 80px rgb(94, 143, 228),
+    0 0 94px rgb(47, 52, 203),
+    0 0 140px rgb(1, 82, 205);
+}
 }
 
 .title {
@@ -27,6 +69,7 @@ body {
 
 .books {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
+    margin: 0 12em 0 12em;
 }

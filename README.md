@@ -1,3 +1,6 @@
+# Prana Library
+## Literature written by authors such as Lev Tolstoy, Fjodor Dostojevskij, Homer, Michael Bulgakov, William Shakespeare, Homer, Gustave Flaubert, George Orwell
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

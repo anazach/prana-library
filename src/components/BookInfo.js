@@ -32,16 +32,13 @@ function BookInfo({ book, close }) {
           <p>{book.plot}</p>
           <footer>
             <p>
-              <b>Audience:</b> {book.audience}
-            </p>
-            <p>
               <b>First published:</b> {book.year}
+            </p>
+              <p className="publisher">
+              Publisher: {book.publisher}
             </p>
             <p>
               <b>Pages:</b> {book.pages}
-            </p>
-            <p>
-              <b>Publisher:</b> {book.publisher}
             </p>
           </footer>
         </section>

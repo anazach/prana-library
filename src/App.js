@@ -12,7 +12,7 @@ function App() {
     <section className="title">
       <h1>Prana Online Library</h1>
       <section className='library'>
-        <div className='wrapper'>
+        <div className='wrapper' >
           {currentBook ? (
             <BookInfo book={currentBook} close={setCurrentBook} />
           ) : (
